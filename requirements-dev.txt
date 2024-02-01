@@ -1,4 +1,4 @@
-numpy>=1.15
+numpy>=1.22.2
 python-dateutil>=2.6.1
 pytz
 asv
@@ -38,7 +38,7 @@ pip
 blosc
 bottleneck>=1.2.1
 ipykernel
-ipython>=5.6.0
+ipython>=8.10.0
 jinja2
 matplotlib>=2.2.2
 numexpr>=2.6.8
@@ -60,3 +60,9 @@ xlsxwriter
 xlwt
 odfpy
 pyreadstat
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
